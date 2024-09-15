@@ -1,0 +1,34 @@
+to run the server
+
+
+cd myproject
+
+
+python manage.py runserver
+
+
+
+to create app
+
+
+python manage.py startapp myapp
+
+
+
+
+
+tutorial---->>
+
+In a Django project, you write your application code in the following places:
+
+Views: Define the logic of your application in the views.py file inside your app directory (e.g., myapp/views.py).
+
+Models: Define the data structure of your application in the models.py file inside your app directory (e.g., myapp/models.py).
+
+URLs: Map URLs to views in the urls.py file inside your app directory (e.g., myapp/urls.py). You also configure the project's URLs in myproject/urls.py.
+
+Templates: Create HTML templates for rendering views in the templates directory inside your app or project.
+
+Static Files: Add static files (like CSS, JavaScript, and images) in the static directory inside your app or project.
+
+Forms: Define forms in the forms.py file inside your app directory (if needed).
